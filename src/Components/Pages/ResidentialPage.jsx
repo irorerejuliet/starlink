@@ -9,6 +9,10 @@ import StandardBox from '../StandardBox';
 import AccessoriesMount from '../AccessoriesMount';
 import DayTrial from '../DayTrial';
 import Footer  from '../FooterSection';
+import { IoIosArrowForward } from 'react-icons/io';
+import { GiSelect } from 'react-icons/gi';
+import { Link } from 'react-router-dom';
+import DayTrialDown from '../DayTrialDown';
 
 
 
@@ -16,17 +20,16 @@ const ResidentialPage = () => {
 
   return (
     <>
-     
-      <ResidentialHeader/>
-       <StreamMovies/> 
-        <NavBarTwo/>
-        <HighSpeed/>
-       <VideoSection/>
-        <WeatherResilence/>
-        <StandardBox/>
-        <AccessoriesMount/>
-        <DayTrial/>
-        <Footer/>
+      <ResidentialHeader />
+      <StreamMovies />
+      <NavBarTwo />
+      <HighSpeed />
+      <VideoSection />
+      <WeatherResilence />
+      <StandardBox />
+      <AccessoriesMount />
+      <DayTrialDown />
+      <Footer />
     </>
   );
 }

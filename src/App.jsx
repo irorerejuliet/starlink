@@ -4,6 +4,9 @@ import HomePage from './Components/Pages/HomePage'
 import ResidentialPage from './Components/Pages/ResidentialPage';
 import RoamPage from './Components/Pages/RoamPage';
 import PersonalPage from './Components/Pages/PersonalPage';
+import StarlinkCheckout from './Components/Pages/StarlinkCheckout';
+import MapPage from './Components/Pages/MapPage';
+import BusinessPage from './Components/Pages/BusinessPage';
 const App = () => {
   return (
     <Routes>
@@ -13,6 +16,9 @@ const App = () => {
         <Route path="/residentialpage" element={<ResidentialPage />} />
         <Route path="/roamPage" element={<RoamPage />} />
         <Route path="/personalpage" element={<PersonalPage />} />
+        <Route path="/starlinkcheckout" element={<StarlinkCheckout/>} />
+        <Route path="/mappage" element={<MapPage/>}/>
+        <Route path="/businesspage" element={<BusinessPage/>}/>
       </Route>
     </Routes>
   );

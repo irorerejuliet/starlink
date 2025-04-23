@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const NavBarTwo = () => {
   return (
-      <header className="bg-[#212121CC]  text-white p-6 ">
+      <header className="bg-[#212121CC]  text-white p-6 md:block hidden">
         <nav className="container max-w-[1196px] mx-auto flex justify-between items-center">
           <h2 className="font-bold text-[1.75rem]">PRESIDENTAIL</h2>
           <div className="flex gap-8">

@@ -26,15 +26,15 @@ const NavBar = () => {
         />
         <div
           className={`absolute xl:hidden top-16  left-0 bg-black text-white
-           flex flex-col w-full h-96 items-center gap-6 font-semibold text-lg transform  
+           flex flex-row flex-wrap justify-center w-96 h-96 items-center gap-6 font-semibold text-lg transform  
            transition-transform ${isMenuOpen ? "opacity-100" : "opacity-0"}`}
           style={{ transition: "transform 0.3s ease, opacity 0.3s ease" }}
         >
-          <ul className="list-none w-full text-center p-4 ">
-              <NavLink to="/">PRESIDENTAIL</NavLink> 
-              <NavLink to="/RoamPage">ROAM</NavLink>
-              <NavLink to="/">PERSONAL</NavLink> 
-              <NavLink to="/BusinessPage">BUSINESS</NavLink>
+          <ul className="flex flex-row flex-wrap justify-center list-none w-full text-center p-4 ">
+            <NavLink to="/">PRESIDENTAIL</NavLink>
+            <NavLink to="/RoamPage">ROAM</NavLink>
+            <NavLink to="/">PERSONAL</NavLink>
+            <NavLink to="/BusinessPage">BUSINESS</NavLink>
           </ul>
         </div>
       </div>

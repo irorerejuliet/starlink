@@ -1,22 +1,32 @@
 export const StandardBoxes = [
   {
-    image: "/images/Starlink.webp",
+    id: 1,
+    image: "/images/starLINK.png",
     title: "STARLINK",
   },
   {
-    image: "/images/Starlink.webp",
-    title: "STARLINK",
+    id: 2,
+    image: "/images/Kickstand.png",
+    title: "KIckSTAND",
   },
   {
-    image: "/images/Starlink.webp",
-    title: "STARLINK",
+    id: 3,
+    image: "/images/Gen3Router.png",
+    title: "GEN3 ROUTER",
   },
   {
-    image: "/images/Starlink.webp",
-    title: "STARLINK",
+    id: 4,
+    image: "/images/StarlinkCable.png",
+    title: "STARLINK CABLE",
   },
   {
-    image: "/images/Starlink.webp",
-    title: "STARLINK",
+    id: 5,
+    image: "/images/Ac-Cable.png",
+    title: "AC-CABLE",
+  },
+  {
+    id: 6,
+    image: "/images/PowerSuplly.png",
+    title: "POWER SUPPLY",
   },
 ];

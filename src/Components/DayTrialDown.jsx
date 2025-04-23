@@ -1,8 +1,9 @@
-import { IoIosArrowForward } from "react-icons/io";
-import { GiSelect } from "react-icons/gi";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { GiSelect } from 'react-icons/gi';
+import { IoIosArrowForward } from 'react-icons/io';
+import { Link } from 'react-router-dom';
 
-const DayTrial = () => {
+const DayTrialDown = () => {
   return (
     <section className="bg-trialEarthImg bg-fixed  md:bg-right bg-center bg-[auto_900px] bg-no-repeat bg-black text-white py-40">
       <div className="text-center m-auto">
@@ -18,13 +19,13 @@ const DayTrial = () => {
               type="TYPE AND SECLECT"
               placeholder="TYPE AND SECLECT"
             />
-            <GiSelect className=" text-white text-3xl absolute md:right-[870px] left-80 md:top-0 top-32" />
+            <GiSelect className=" text-white text-3xl absolute md:right-[46%] right-[10%] md:top-32 top-32" />
             <button className="font-bold text-xs bg-white text-black md:py-4 md:px-10 py-4 px-36 rounded-[4px] ml-3 md:mt-0 mt-5">
               ORDER NOW
             </button>
           </div>
           <div className="flex justify-center text-center py-8 gap-4">
-            <p className="font-bold text-xs"> VIEW AVAILABILITY & SPEED MAPS</p>
+            <p className="font-bold text-xs">VIEW AVAILABILITY & SPEED MAPS</p>
             <Link to="/MapPage">
               <IoIosArrowForward />
             </Link>
@@ -33,6 +34,6 @@ const DayTrial = () => {
       </div>
     </section>
   );
-};
+}
 
-export default DayTrial;
+export default DayTrialDown
