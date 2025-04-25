@@ -8,6 +8,8 @@ import StarlinkCheckout from './Components/Pages/StarlinkCheckout';
 import MapPage from './Components/Pages/MapPage';
 import BusinessPage from './Components/Pages/BusinessPage';
 import StarlinkMockPayment from './Components/Pages/StarlinkMockPayment';
+import BuyersGuide from './Components/Pages/BuyersGuide';
+import OrderMobility from './Components/Pages/OrderMobility';
 const App = () => {
   return (
     <Routes>
@@ -21,6 +23,8 @@ const App = () => {
         <Route path="/mappage" element={<MapPage />} />
         <Route path="/businesspage" element={<BusinessPage />} />
         <Route path="/starlinkmockpayment" element={<StarlinkMockPayment />} />
+        <Route path="/buyersguide" element={<BuyersGuide />} />
+        <Route path="/ordermobility" element={<OrderMobility />} />
       </Route>
     </Routes>
   );

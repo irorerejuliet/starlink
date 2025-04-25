@@ -23,6 +23,7 @@ export default {
       roamEarth1: "url('/images/roamEarth1.jpeg')",
       businessHero: "url('/images/businessHeroHome.jpeg')",
       unlimitedService: "url('/images/unlimitedService.jpeg')",
+      landMobilityHero: "url('/images/landmobilityHero.jpeg')",
     },
   },
   plugins: [],

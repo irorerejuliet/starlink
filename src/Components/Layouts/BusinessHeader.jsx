@@ -25,7 +25,7 @@ const BusinessHeader = () => {
                Connect with our team
              </Link>
              <span className='text-2xl font-light ml-2'>or view our</span>
-             <Link to="" className="text-2xl font-bold ml-2">
+             <Link to="/BuyersGuide" className="text-2xl font-bold ml-2">
                buyer's guide
              </Link>
            </div>
