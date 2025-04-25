@@ -1,5 +1,5 @@
-import React from 'react'
-import Card from './card';
+import Card from '../Components/Card';
+import { Link } from 'react-router-dom';
 
 const HomeCards = () => {
   return (
@@ -13,9 +13,9 @@ const HomeCards = () => {
         <button className="font-bold text-xs bg-white py-2 px-4 rounded-[4px]">
           ORDER NOW
         </button>
-        <button className="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">
+        <Link to="/ResidentialPage" className="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">
           LEARN MORE
-        </button>
+        </Link>
       </Card>
       <Card bg="black">
         <h3 className="font-bold text-2xl text-white py-3">Roam</h3>
@@ -28,9 +28,9 @@ const HomeCards = () => {
         <button className="font-bold text-xs bg-white py-2 px-4 rounded-[4px]">
           ORDER NOW
         </button>
-        <button className="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">
+        <Link to="/RoamPage" className="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">
           LEARN MORE
-        </button>
+        </Link>
       </Card>
     </div>
   );

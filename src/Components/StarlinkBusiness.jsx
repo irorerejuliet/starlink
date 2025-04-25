@@ -1,5 +1,5 @@
 import { IoIosArrowForward } from "react-icons/io";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const StarlinkBusiness = () => {
   return (
@@ -12,8 +12,8 @@ const StarlinkBusiness = () => {
           Reliable high-speed internet designed to keep businesses connected.
         </p>
         <div className="flex  items-center gap-2">
-          <p className="font-bold text-sm md:ml-0 ml-36 py-2">LEARN MORE</p>
-          <NavLink to="">
+          <Link to="/ResidentialPage" className="font-bold text-sm md:ml-0 ml-36 py-2">LEARN MORE</Link>
+          <NavLink to="/MapPage">
             <IoIosArrowForward />
           </NavLink>
         </div>
