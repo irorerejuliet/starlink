@@ -34,7 +34,7 @@ const BuyersGuide = () => {
                 <FiBookOpen />
                 <p className="text-sm font-bold">Guides</p>
               </div>
-              <div className="flex items-center gap-2 ml-[550%] py-1 px-6 bg-white text-[#637288] fontnormal rounded-lg">
+              <div className="flex items-center gap-2 ml-[550%] py-1 px-6 bg-white text-[#637288] fontnormal rounded-lg w-[170px]">
                 <CiSearch />
                 <button>Search</button>
               </div>

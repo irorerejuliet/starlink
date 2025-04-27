@@ -24,6 +24,8 @@ export default {
       businessHero: "url('/images/businessHeroHome.jpeg')",
       unlimitedService: "url('/images/unlimitedService.jpeg')",
       landMobilityHero: "url('/images/landmobilityHero.jpeg')",
+      landMobilitytruck: "url('/images/landmobility_truck.jpeg')",
+      designedHarsh: "url('/images/designedForHarsh.jpeg')",
     },
   },
   plugins: [],
