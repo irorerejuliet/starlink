@@ -21,8 +21,8 @@ const OrderMobility = () => {
   
   return (
     <>
-      <LandmobilityHeaderOne/>
-      <LandMobilityHeaderTwo/>
+      <LandmobilityHeaderOne />
+      <LandMobilityHeaderTwo />
       <LandMobilityCarousel/>
       <StayConnected/>
       <LandMobilityOperations/>

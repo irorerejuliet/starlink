@@ -10,6 +10,7 @@ import BusinessPage from './Components/Pages/BusinessPage';
 import StarlinkMockPayment from './Components/Pages/StarlinkMockPayment';
 import BuyersGuide from './Components/Pages/BuyersGuide';
 import OrderMobility from './Components/Pages/OrderMobility';
+import OrderMaritemi from './Components/Pages/OrderMaritemi';
 const App = () => {
   return (
     <Routes>
@@ -25,6 +26,7 @@ const App = () => {
         <Route path="/starlinkmockpayment" element={<StarlinkMockPayment />} />
         <Route path="/buyersguide" element={<BuyersGuide />} />
         <Route path="/ordermobility" element={<OrderMobility />} />
+        <Route path="/ordermaritemi" element={<OrderMaritemi />} />
       </Route>
     </Routes>
   );
