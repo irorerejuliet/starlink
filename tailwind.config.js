@@ -29,6 +29,8 @@ export default {
       maritimeHero: "url('/images/maritimeHero.jpeg')",
       globalCoverage: "url('/images/globalMarimeCoverage.jpeg')",
       secureFleet: "url('/images/secureFleet.jpeg')",
+      environment: "url('/images/harshEnvironment.jpeg')",
+     
     },
   },
   plugins: [],

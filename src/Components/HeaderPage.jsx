@@ -9,11 +9,11 @@ const HeaderPage = ({
   subtitle = "Connect at home or on the go",
 }) => {
   return (
-    <header className="py-7 bg-homeHeroImg bg-repeat bg-cover w-full  md:px-0 px-5 bg-white">
+    <header className="py-7 bg-homeHeroImg bg-repeat bg-cover w-full md:px-0 px-5 bg-white relative">
       <NavBar />
       <div className="text-center text-white pt-36 space-y-5">
         <h2 className="md:text-6xl text-3xl font-bold leading-tight md:w-[708px] w-[310px] text-center m-auto font-Arimo">
-        {title}
+          {title}
         </h2>
         <h4 className="text-xl font-normal">{subtitle}</h4>
         <div className="flex justify-center items-center gap-2">

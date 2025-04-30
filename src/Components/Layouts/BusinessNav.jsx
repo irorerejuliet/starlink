@@ -6,7 +6,7 @@ const BusinessNav = () => {
     <nav className=" container max-w-[1438px] mx-auto flex justify-between items-center">
       <div className="flex justify-between items-center gap-16 text-white">
         <h1 className="font-bold text-2xl tracking-[0.162em]">
-          <a href="/index.html">STARLINK</a>
+          <NavLink to="/">STARLINK</NavLink>
         </h1>
         <div className="md:flex hidden justify-center gap-4 text-base font-medium text-white font-Roboto">
           <NavLink to="/FixedPage">FIXED SITE</NavLink>

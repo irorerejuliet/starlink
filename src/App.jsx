@@ -11,6 +11,7 @@ import StarlinkMockPayment from './Components/Pages/StarlinkMockPayment';
 import BuyersGuide from './Components/Pages/BuyersGuide';
 import OrderMobility from './Components/Pages/OrderMobility';
 import OrderMaritemi from './Components/Pages/OrderMaritemi';
+import SpacexNavyStarlink from './Components/Pages/SpacexNavyStarlink';
 const App = () => {
   return (
     <Routes>
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/buyersguide" element={<BuyersGuide />} />
         <Route path="/ordermobility" element={<OrderMobility />} />
         <Route path="/ordermaritemi" element={<OrderMaritemi />} />
+        <Route path="/spacexnavystarlink" element={<SpacexNavyStarlink />} />
       </Route>
     </Routes>
   );

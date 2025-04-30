@@ -1,11 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
+import NavTitile from './NavTitile';
 
 const LandMobilityHeaderTwo = () => {
   return (
     <header className="bg-[#1A1A1A]  text-white p-10 items-center md:block hidden">
       <nav className="container max-w-[1196px] mx-auto flex justify-between items-center">
-        <h2 className="font-bold text-[1.75rem]">LAND MOBILITY</h2>
+        <NavTitile>LAND MOBILITY</NavTitile>
         <div className="flex gap-8">
           <div className="flex justify-between gap-8 font-medium text-base">
             <NavLink to="">SERVICE PLANS</NavLink>

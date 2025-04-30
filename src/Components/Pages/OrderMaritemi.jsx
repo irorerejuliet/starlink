@@ -3,8 +3,7 @@ import BusinessNav from '../Layouts/BusinessNav';
 import { Link } from 'react-router-dom';
 import LandMobilityHeaderTwo from '../Layouts/LandMobilityHeaderTwo';
 import LandMobilityCarousel from '../LandMobilityCarousel';
-import StayConnected from '../StayConnected';
-import LandMobilityOperations from '../LandMobilityOperations';
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import StandardBox from '../StandardBox';
 import LandMobilityAccessories from '../LandMobilityAccessories';
 import LandMobilityDayTrial from '../LandMobilityDayTrial';
@@ -70,7 +69,7 @@ const OrderMaritemi = () => {
             <img
               src="/images/networkAccess.jpeg"
               alt="networkAccess"
-              className="w-[710px]"
+              className="w-[650px]"
             />
           </div>
         </section>
@@ -84,7 +83,64 @@ const OrderMaritemi = () => {
             </p>
           </div>
         </section>
-        
+        <section className=" bg-environment bg-cover bg-bottom w-full h-screen">
+          <div className="md:ml-56  m-auto md:pt-[25%]  text-white">
+            <p className="text-4xl font-bold md:w-[510px] w-[350px]">
+              Designed for Harsh Environments
+            </p>
+            <p className="text-sm font-normal pt-5 w-[486px]">
+              Starlink is designed for permanent installation on your vessel and
+              can withstand extreme cold, heat, sleet, heavy rain, and hurricane
+              winds.
+            </p>
+            <p className="text-xs font-normal pt-5  w-[486px]">
+              Starlink is currently being used to get high-quality video of
+              SpaceX rocket landings at sea, providing continuous coverage in
+              the face of engines capable of generating up to 190,000 lbs of
+              force.
+            </p>
+            <div className="mt-6">
+              <Link
+                to="/SpacexNavyStarlink"
+                className="py-1 px-3 text-white border border-white text-xs font-semibold"
+              >
+                LEARN MORE
+              </Link>
+            </div>
+          </div>
+        </section>
+        <section className="bg-earthimg bg-fixed bg-cover bg-repeat py-20 text-white">
+          <div className="flex justify-center items-center w-[1460px] mx-auto gap-20">
+            <img
+              src="/images/easyRuler.jpeg"
+              alt="networkAccess"
+              className="w-[650px]"
+            />
+            <div className="w-[510px]">
+              <h3 className="text-[2.5rem] font-bold">EASY TO GET ONLINE</h3>
+              <p className="text-sm font-semibold py-3 ">
+                Integrate Starlink with existing onboard networks via direct
+                ethernet connection or use the included Wi-Fi router. The Flat
+                High Performance comes with an easy-to-install mount. Review the
+                installation guide here.
+              </p>
+              <p className="text-sm font-semibold">
+                Download the Starlink app to determine the best install location
+                on your vessel.
+              </p>
+              <div className="flex items-center gap-10  mt-5">
+                <div className="text-[0.625rem] font-bold flex items-center ">
+                  <p>DOWNLOAD FOR ANDRIOD</p>
+                  <MdOutlineKeyboardArrowRight size={20} />
+                </div>
+                <div className="text-[0.625rem] font-bold flex items-center ">
+                  <p>DOWNLOAD FOR ANDRIOD</p>
+                  <MdOutlineKeyboardArrowRight size={20} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <StandardBox />
         <LandMobilityAccessories />
         <LandMobilityDayTrial />

@@ -31,15 +31,15 @@ const RoamPage = () => {
 
       <PayAsYouGo />
 
-      {/* <!-- USE STARLINK IN MOTION --> */}
+     
       <StarlinkOnMotion />
 
-      {/* <!-- starlink on water --> */}
+     
       <StarlinkOnWater />
 
-      {/* <!-- WHAT'S IN THE STANDARD BOX --> */}
+     
       <StandardBox />
-      {/* <Accessories/> */}
+      
       <AccessoriesMount />
       <DayTrialDown />
       <FooterSection />

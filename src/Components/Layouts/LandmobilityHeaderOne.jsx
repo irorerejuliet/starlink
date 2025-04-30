@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Link } from 'react-router-dom';
 import BusinessNav from './BusinessNav';
 
@@ -19,11 +19,14 @@ const LandmobilityHeaderOne = () => {
       </div>
 
       <div className=" text-center py-10 text-white">
-        <Link to="/StarlinkMockPayment" className="text-2xl font-bold">
+        <Link
+          to="/StarlinkMockPayment"
+          className="text-2xl font-bold "
+        >
           Connect with our team
         </Link>
         <span className="text-2xl font-light ml-2">or view our</span>
-        <Link to="/BuyersGuide" className="text-2xl font-bold ml-2">
+        <Link to="/BuyersGuide" className="text-2xl font-bold ml-2 border hover:border-b-white">
           buyer's guide
         </Link>
         <div className="mt-80">
