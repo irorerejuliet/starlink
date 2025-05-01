@@ -1,44 +1,76 @@
+import React, { useState } from "react";
 import { MdMenu } from "react-icons/md";
-import Logo from "./Logo";
+import { FaTimes } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import Logo from "./Logo";
+import Menu from "./Menu";
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false)
-   const toggleMenu = () => {
-     setIsOpen(!isOpen);
-   };
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <nav className="container max-w-[1438px] mx-auto flex items-center justify-between text-base font-medium text-white font-Roboto gap-6">
-        <div className="flex items-center gap-24">
+      <nav className="container px-4 md:px-6 max-w-[1438px] mx-auto flex items-center justify-between py-4 text-base font-medium text-white font-Roboto">
+        {/* Logo and left nav */}
+        <div className="flex items-center gap-6">
           <Logo />
-          <div className="text-white flex gap-6">
-            <NavLink to="ResidentialPage">PRESIDENTAIL</NavLink>
+          <div className="hidden md:flex gap-6">
+            <NavLink to="/ResidentialPage">PRESIDENTAIL</NavLink>
             <NavLink to="/RoamPage">ROAM</NavLink>
           </div>
         </div>
-        <div className="md:flex hidden justify-between items-center gap-8 text-white">
+
+        {/* Right nav links */}
+        <div className="hidden md:flex items-center gap-6">
           <NavLink to="/">PERSONAL</NavLink>
           <NavLink to="/BusinessPage">BUSINESS</NavLink>
-          <button>
-            <MdMenu onClick={toggleMenu} />
-          </button>
         </div>
+
+        {/* Mobile Menu Icon */}
+        <button className="block md:hidden" onClick={toggleMenu}>
+          <MdMenu fontSize={28} />
+        </button>
       </nav>
+
+      {/* Mobile Menu Overlay */}
       {isOpen && (
-        <nav className="fixed inset-0 z-40 h-full w-full bg-black text-white space-y-4">
-          <div className="flex-wrap">
-            <NavLink to="/">PRESIDENTAIL</NavLink>
-            <NavLink to="/RoamPage">ROAM</NavLink>
-            <NavLink to="/">PERSONAL</NavLink>
-            <NavLink to="/BusinessPage">BUSINESS</NavLink>
+        <div className="fixed inset-0 z-40 bg-black bg-opacity-90 text-white p-6">
+          <div className="flex items-center justify-between mb-6">
+            <Logo />
+            <button onClick={toggleMenu}>
+              <FaTimes fontSize={28} />
+            </button>
           </div>
-        </nav>
+          <ul className="space-y-4 text-lg">
+            <li>
+              <NavLink to="/" onClick={toggleMenu}>
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/ResidentialPage" onClick={toggleMenu}>
+                Residential
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/RoamPage" onClick={toggleMenu}>
+                Roam
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to="/BusinessPage" onClick={toggleMenu}>
+                Business
+              </NavLink>
+            </li>
+          </ul>
+        </div>
       )}
     </>
   );
 };
 
 export default NavBar;
-
