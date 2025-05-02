@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Logo = () => {
+const Logo = ({logoStyle}) => {
   return (
     <>
-    <a href="/"><img src="/images/logo.png" alt="Logo" className='w-[95px]'/></a>
+    <a href="/"><img src="/images/logo.png" alt="Logo" className={logoStyle}/></a>
     </>
   )
 }

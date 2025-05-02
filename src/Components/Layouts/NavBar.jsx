@@ -17,7 +17,7 @@ const NavBar = () => {
       <nav className="container px-4 md:px-6 max-w-[1438px] mx-auto flex items-center justify-between py-4 text-base font-medium text-white font-Roboto">
         {/* Logo and left nav */}
         <div className="flex items-center gap-6">
-          <Logo />
+          <Logo logoStyle={"w-[130px]"}/>
           <div className="hidden md:flex gap-6">
             <NavLink to="/ResidentialPage">PRESIDENTAIL</NavLink>
             <NavLink to="/RoamPage">ROAM</NavLink>
@@ -40,12 +40,12 @@ const NavBar = () => {
       {isOpen && (
         <div className="fixed inset-0 z-40 bg-black bg-opacity-90 text-white p-6">
           <div className="flex items-center justify-between mb-6">
-            <Logo />
+            <Logo logoStyle={"w-[130px]"}/>
             <button onClick={toggleMenu}>
               <FaTimes fontSize={28} />
             </button>
           </div>
-          <ul className="space-y-4 text-lg">
+          <ul className="space-y-4 text-lg font-semibold">
             <li>
               <NavLink to="/" onClick={toggleMenu}>
                 Home

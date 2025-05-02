@@ -13,7 +13,7 @@ const RoamHeaderOne = () => {
           Work and play at remote locations.
         </p>
         <div className="p-5 absolute md:left-[44%] -left-[6%] md:-bottom-[152%] -bottom-[155%]">
-          <button className="font-bold text-xs bg-white text-black md:py-4 md:px-10 py-4 px-36 rounded-[4px] md:ml-3 md:mt-0 mt-5 md:w-[180px] w-[350px]">
+          <button className="font-bold text-xs bg-white text-black md:py-4 md:px-10 py-4 px-36 rounded-[4px] md:ml-3 md:mt-0 mb-32 md:w-[180px] w-[350px]">
             ORDER NOW
           </button>
         </div>

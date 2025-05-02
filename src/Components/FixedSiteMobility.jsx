@@ -29,7 +29,7 @@ const FixedSiteMobility = () => {
             <p>Connect almost any site</p>
           </div>
         </div>
-        <div className="text-center md:border-l-2 border-l-0 md:pl-28 pt-10">
+        <div className="text-center md:border-l-2 border-l-0 md:pl-28 md:pr-0 pr-10 pt-10">
           <img
             src="/images/Resilent.jpeg"
             alt="resilient"

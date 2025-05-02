@@ -19,27 +19,12 @@ const RoamPage = () => {
   return (
     <>
       <RoamHeaderOne/>
-
-      {/* <!--   Second Header --> */}
       <RoamHeaderTwo/>
-     
-
-      {/* <!--WORK AND PLAY AT REMOTE LOCATIONS  --> */}
-
       <WorkAndPlay />
-      {/* <!-- Pay as you go --> */}
-
       <PayAsYouGo />
-
-     
       <StarlinkOnMotion />
-
-     
       <StarlinkOnWater />
-
-     
       <StandardBox />
-      
       <AccessoriesMount />
       <DayTrialDown />
       <FooterSection />

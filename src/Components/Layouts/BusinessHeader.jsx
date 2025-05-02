@@ -21,7 +21,7 @@ const BusinessHeader = () => {
       </div>
 
       <div className=" text-center py-10 text-white">
-         <Link
+        <Link
           to="/StarlinkMockPayment"
           className="text-2xl font-bold  border-b-2 border-white hover:border-transparent transition duration-300"
         >
@@ -33,18 +33,18 @@ const BusinessHeader = () => {
           className="text-2xl font-bold ml-2 border-b-2 border-white hover:border-transparent transition duration-300"
         >
           buyer's guide
-        </Link> 
+        </Link>
       </div>
       <div className="py-20 relative text-white mt-20">
         <h4 className="font-bold text-xm ml-[37%] py-2">Service Address</h4>
         <div className="md:flex flex-row justify-center items-center">
           <input
-            className="font-bold text-xs py-4 pl-6 pr-40 rounded-[4px] text-white bg-[#ffffff26] border"
+            className="font-bold text-xs py-4 pl-6 pr-40 rounded-[4px] text-white bg-[#ffffff26] border md:mb-0 mb-10"
             type="TYPE AND SECLECT"
             placeholder="TYPE AND SECLECT"
           />
           <GiSelect className=" text-white text-3xl absolute md:right-[46%] right-[10%] md:top-32 top-32" />
-          <Link to="/RoamPage" className="font-bold text-xs bg-white text-black md:py-4 md:px-10 py-4 px-36 rounded-[4px] ml-3 md:mt-0 mt-5">
+          <Link to="/RoamPage" className="font-bold text-xs bg-white text-black md:py-4 md:px-10 py-4 px-6 rounded-[4px] md:ml-3 ml-28">
             ORDER NOW
           </Link>
         </div>
@@ -55,8 +55,7 @@ const BusinessHeader = () => {
           </Link>
         </div>
       </div>
-      <div className='bg-gradient-to-r from-blue-600 to-emerald-700 w-full h-screen'>
-      </div>
+      <div className="bg-gradient-to-r from-blue-600 to-emerald-700 w-full h-screen"></div>
     </header>
   );
 }

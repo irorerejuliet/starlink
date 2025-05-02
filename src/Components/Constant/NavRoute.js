@@ -1,27 +1,27 @@
 export const NavRoute = [
   {
     id: 1,
-    name: "Starlink",
-    path: "/",
+    name: "FIXED SITE",
+    path: "/fixed site",
   },
   {
     id: 2,
-    name: "Residential",
-    path: "/ResidentialPage",
+    name: "LAND MOBILITY",
+    path: "/landmobility",
   },
   {
     id: 3,
-    name: "Roam",
-    path: "/RoamPage",
+    name: "MARITIME",
+    path: "/maritime",
   },
   {
     id: 4,
-    name: "Personal",
-    path: "/PersonalPage",
+    name: "AVIATION",
+    path: "/aviation",
   },
   {
     id: 5,
-    name: "Business",
-    path: "/BusinessPage",
+    name: "DIRECT TO CELL",
+    path: "/direct to cell",
   },
 ];
