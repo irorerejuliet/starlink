@@ -10,9 +10,9 @@ const HomeCards = () => {
         <p className="font-medium text-base text-white py-3">
           Starting at ₦75,000/mo
         </p>
-        <button className="font-bold text-xs bg-white py-2 px-4 rounded-[4px]">
+        <Link to="/auth/register" className="font-bold text-xs bg-white py-2 px-4 rounded-[4px]">
           ORDER NOW
-        </button>
+        </Link>
         <Link to="/ResidentialPage" className="font-bold text-xs py-2 px-4 rounded-[4px] border border-white text-white ml-2">
           LEARN MORE
         </Link>
