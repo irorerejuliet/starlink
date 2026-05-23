@@ -11,14 +11,13 @@ const VideoSection = () => {
             alt="routerInstall"
           />
           <div className="absolute md:top-64 top-[35%] md:left-[43%] left-[35%]">
-            <a href="/Videos/Starlink_What_Is_Starlink.mp4">
+            <a href="/videos/Starlink_Standard_Install_Video.mp4">
               <img
                 src="/images/downloadVideo.png"
                 alt="downloadVideo"
                 className="md:w-full w-[100px]"
               />
             </a>
-            <a href="/Videos/Starlink_What_Is_Starlink.mp4"></a>
           </div>
         </div>
 
