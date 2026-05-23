@@ -16,11 +16,16 @@ const HeaderPage = ({
           {title}
         </h2>
         <h4 className="text-xl font-normal">{subtitle}</h4>
-        <div className="flex justify-center items-center gap-2">
-          <p className="text-sm font-bold gap-10">
-            <a href="/Videos/Starlink_What_Is_Starlink.mp4">WATCH NOW</a>
+        <div className="">
+          <p className="text-sm font-bold gap-10 ">
+            <a
+              href="/videos/Starlink_Residential_Hero_Mini.webm"
+              className="flex justify-center items-center gap-2"
+            >
+              WATCH NOW
+              <IoMdPlay />
+            </a>
           </p>
-          <IoMdPlay />
         </div>
       </div>
       <HomeCards />
